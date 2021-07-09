@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "171983389003",
+    "project_id": "andrea-b388a",
+    "storage_bucket": "andrea-b388a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171983389003:android:850dc464267827b76c28ce",
+        "android_client_info": {
+          "package_name": "net.dev.andrea.andrea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171983389003-v3h54icasmfuo3jughkqjkkkn2n51g10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.dev.andrea.andrea",
+            "certificate_hash": "227260fc8848ce288c9c875afedb2e623d7059e8"
+          }
+        },
+        {
+          "client_id": "171983389003-8m6u8avukth0cknm9isvhgb1kh86gkth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3v5Wbdt-aRbzq4IiDM3kxRxjpdvU-zQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171983389003-8m6u8avukth0cknm9isvhgb1kh86gkth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
