@@ -5,6 +5,8 @@
       <root url="file://$PROJECT_DIR$/../../flutterAPK/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.1" />
       <root url="file://$PROJECT_DIR$/../../flutterAPK/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_auth-0.18.2" />
       <root url="file://$PROJECT_DIR$/../../flutterAPK/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1" />
+      <root url="file://$PROJECT_DIR$/../../flutterAPK/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-4.5.6" />
+      <root url="file://$PROJECT_DIR$/../../flutterAPK/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.9.2" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
