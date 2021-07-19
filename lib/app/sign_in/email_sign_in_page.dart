@@ -3,10 +3,6 @@ import 'package:andrea/services/auth.dart';
 import 'package:flutter/material.dart';
 
 class EmailSignInPage extends StatelessWidget {
-  final AuthBase auth;
-
-  const EmailSignInPage({@required this.auth});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +13,7 @@ class EmailSignInPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: Card(child: EmailSignInForm(auth: auth)),
+          child: Card(child: EmailSignInForm()),
         ),
       ),
       backgroundColor: Colors.grey[200],
