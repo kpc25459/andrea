@@ -1,5 +1,4 @@
-import 'package:andrea/app/sign_in/email_sign_in_form.dart';
-import 'package:andrea/services/auth.dart';
+import 'package:andrea/app/sign_in/email_sign_in_form_block_based.dart';
 import 'package:flutter/material.dart';
 
 class EmailSignInPage extends StatelessWidget {
@@ -13,7 +12,9 @@ class EmailSignInPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: Card(child: EmailSignInForm()),
+          child: Card(
+            child: EmailSignInFormBlocBased.create(context),
+          ),
         ),
       ),
       backgroundColor: Colors.grey[200],
