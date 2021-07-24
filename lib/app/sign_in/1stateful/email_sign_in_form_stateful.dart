@@ -1,5 +1,4 @@
-
-import 'package:andrea/app/sign_in/validators.dart';
+import 'package:andrea/app/sign_in/utils/validators.dart';
 import 'package:andrea/common_widgets/form_submit_button.dart';
 import 'package:andrea/common_widgets/show_exception_alert_dialog.dart';
 import 'package:andrea/services/auth.dart';
@@ -7,8 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'email_sign_in_model.dart';
-
+import '../email_sign_in_form_type.dart';
 
 class EmailSignInFormStateful extends StatefulWidget with EmailAndPasswordValidators {
   @override

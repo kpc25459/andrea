@@ -1,7 +1,7 @@
+import 'package:andrea/app/sign_in/2valueNotifier/sign_in_manager.dart';
 import 'package:andrea/app/sign_in/email_sign_in_page.dart';
-import 'package:andrea/app/sign_in/sign_in_manager.dart';
-import 'package:andrea/app/sign_in/sign_in_button.dart';
-import 'package:andrea/app/sign_in/social_sign_in_button.dart';
+import 'package:andrea/app/sign_in/Utils/sign_in_button.dart';
+import 'package:andrea/app/sign_in/utils/social_sign_in_button.dart';
 import 'package:andrea/common_widgets/show_exception_alert_dialog.dart';
 import 'package:andrea/services/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';

@@ -1,8 +1,10 @@
 import 'dart:async';
 
-import 'package:andrea/app/sign_in/email_sign_in_model.dart';
 import 'package:andrea/services/auth.dart';
 import 'package:flutter/foundation.dart';
+
+import '../email_sign_in_form_type.dart';
+import 'email_sign_in_model.dart';
 
 class EmailSignInBloc {
   final AuthBase auth;

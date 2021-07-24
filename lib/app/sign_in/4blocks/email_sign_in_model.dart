@@ -1,6 +1,5 @@
-import 'package:andrea/app/sign_in/validators.dart';
-
-enum EmailSignInFormType { signIn, register }
+import 'package:andrea/app/sign_in/utils/validators.dart';
+import '../email_sign_in_form_type.dart';
 
 class EmailSignInModel with EmailAndPasswordValidators {
   final String email;

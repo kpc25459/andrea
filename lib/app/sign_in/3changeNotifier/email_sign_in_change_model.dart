@@ -1,8 +1,8 @@
-import 'package:andrea/app/sign_in/validators.dart';
+import 'package:andrea/app/sign_in/utils/validators.dart';
 import 'package:andrea/services/auth.dart';
 import 'package:flutter/foundation.dart';
 
-import 'email_sign_in_model.dart';
+import '../email_sign_in_form_type.dart';
 
 class EmailSignInChangeModel with EmailAndPasswordValidators, ChangeNotifier {
   String email;

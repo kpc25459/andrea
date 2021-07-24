@@ -1,10 +1,11 @@
-import 'package:andrea/app/sign_in/email_sign_in_change_model.dart';
 import 'package:andrea/common_widgets/form_submit_button.dart';
 import 'package:andrea/common_widgets/show_exception_alert_dialog.dart';
 import 'package:andrea/services/auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import 'email_sign_in_change_model.dart';
 
 class EmailSignInFormChangeNotifier extends StatefulWidget {
   final EmailSignInChangeModel model;
