@@ -1,6 +1,7 @@
-import 'package:andrea/app/home_page.dart';
+import 'package:andrea/app/home/jobs_page.dart';
 import 'package:andrea/app/sign_in/2valueNotifier/sign_in_page.dart';
 import 'package:andrea/services/auth.dart';
+import 'package:andrea/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -17,7 +18,9 @@ class LandingPage extends StatelessWidget {
 
           if (user == null) return SignInPage.create(context);
 
-          return HomePage();
+          return Provider<Database>(
+              create: (_) => FirestoreDatabase(uid: user.uid),
+              child: JobsPage());
         }
         return Scaffold(
           body: Center(
